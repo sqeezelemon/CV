@@ -1,8 +1,7 @@
 // CV
 // ↳ CVApp.swift
 //
-// Created by:
-// Alexander Nikitin - @sqeezelemon
+// Created by @sqeezelemon
 
 import SwiftUI
 
@@ -10,8 +9,7 @@ import SwiftUI
 struct CVApp: App {
   var body: some Scene {
     WindowGroup {
-      MainView()
-        .navigationTitle("CV")
+      ResumeViewer()
     }
   }
 }

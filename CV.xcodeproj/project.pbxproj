@@ -8,28 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		805DC387299E696A00EAD11B /* CVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DC386299E696A00EAD11B /* CVApp.swift */; };
-		805DC389299E696A00EAD11B /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DC388299E696A00EAD11B /* MainView.swift */; };
 		805DC38B299E696C00EAD11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805DC38A299E696C00EAD11B /* Assets.xcassets */; };
 		805DC38E299E696C00EAD11B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805DC38D299E696C00EAD11B /* Preview Assets.xcassets */; };
-		805DC396299E69C100EAD11B /* ResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DC395299E69C100EAD11B /* ResumeView.swift */; };
-		805DC398299E69CC00EAD11B /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DC397299E69CC00EAD11B /* Resume.swift */; };
-		805DC3A4299E7B4F00EAD11B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DC3A3299E7B4F00EAD11B /* Constants.swift */; };
-		80B2B1B62B2910EF008CD739 /* Resume+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B2B1B52B2910EF008CD739 /* Resume+Example.swift */; };
-		80B2B1B82B2915FC008CD739 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 80B2B1B72B2915FC008CD739 /* example.png */; };
+		806DF7D52B29BD880029ABFC /* URLPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DF7D42B29BD880029ABFC /* URLPositions.swift */; };
+		8074CA332B16348D000B7350 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA322B16348D000B7350 /* Experience.swift */; };
+		8074CA352B16350C000B7350 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA342B16350C000B7350 /* Education.swift */; };
+		8074CA372B163565000B7350 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA362B163565000B7350 /* Project.swift */; };
+		8074CA392B16367D000B7350 /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA382B16367D000B7350 /* Resume.swift */; };
+		8074CA3E2B16380A000B7350 /* MonochromeResumeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA3D2B16380A000B7350 /* MonochromeResumeRenderer.swift */; };
+		8074CA432B165248000B7350 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA422B165248000B7350 /* String+Extensions.swift */; };
+		8074CA452B1739A2000B7350 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA442B1739A2000B7350 /* Contact.swift */; };
+		8074CA482B174EF2000B7350 /* ResumeViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA472B174EF2000B7350 /* ResumeViewer.swift */; };
+		8074CA4A2B175ECB000B7350 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA492B175ECB000B7350 /* Palette.swift */; };
+		8074CA502B17CDA9000B7350 /* URLPositionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA4F2B17CDA9000B7350 /* URLPositionTracker.swift */; };
+		8074CA522B17DCDF000B7350 /* Skillset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA512B17DCDF000B7350 /* Skillset.swift */; };
+		809F0EE72B1F663400ADD7CD /* Resume+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809F0EE62B1F663400ADD7CD /* Resume+Example.swift */; };
+		80D7C2CE2B185AB7005801A1 /* Resumes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7C2CD2B185AB7005801A1 /* Resumes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		805DC383299E696A00EAD11B /* CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		805DC386299E696A00EAD11B /* CVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVApp.swift; sourceTree = "<group>"; };
-		805DC388299E696A00EAD11B /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		805DC38A299E696C00EAD11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		805DC38D299E696C00EAD11B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		805DC38F299E696C00EAD11B /* CV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CV.entitlements; sourceTree = "<group>"; };
-		805DC395299E69C100EAD11B /* ResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeView.swift; sourceTree = "<group>"; };
-		805DC397299E69CC00EAD11B /* Resume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resume.swift; sourceTree = "<group>"; };
-		805DC3A3299E7B4F00EAD11B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		80B2B1B52B2910EF008CD739 /* Resume+Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resume+Example.swift"; sourceTree = "<group>"; };
-		80B2B1B72B2915FC008CD739 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
+		806DF7D42B29BD880029ABFC /* URLPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPositions.swift; sourceTree = "<group>"; };
+		8074CA322B16348D000B7350 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
+		8074CA342B16350C000B7350 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
+		8074CA362B163565000B7350 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
+		8074CA382B16367D000B7350 /* Resume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resume.swift; sourceTree = "<group>"; };
+		8074CA3D2B16380A000B7350 /* MonochromeResumeRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonochromeResumeRenderer.swift; sourceTree = "<group>"; };
+		8074CA422B165248000B7350 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		8074CA442B1739A2000B7350 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		8074CA472B174EF2000B7350 /* ResumeViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewer.swift; sourceTree = "<group>"; };
+		8074CA492B175ECB000B7350 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
+		8074CA4F2B17CDA9000B7350 /* URLPositionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPositionTracker.swift; sourceTree = "<group>"; };
+		8074CA512B17DCDF000B7350 /* Skillset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillset.swift; sourceTree = "<group>"; };
+		809F0EE62B1F663400ADD7CD /* Resume+Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resume+Example.swift"; sourceTree = "<group>"; };
+		80D7C2CD2B185AB7005801A1 /* Resumes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resumes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +78,14 @@
 		805DC385299E696A00EAD11B /* CV */ = {
 			isa = PBXGroup;
 			children = (
+				8074CA462B17469F000B7350 /* UI */,
+				8074CA3A2B163789000B7350 /* Rendering */,
+				8074CA312B163481000B7350 /* Resume */,
+				8074CA412B16523A000B7350 /* Extensions */,
 				805DC386299E696A00EAD11B /* CVApp.swift */,
-				805DC388299E696A00EAD11B /* MainView.swift */,
 				805DC38A299E696C00EAD11B /* Assets.xcassets */,
 				805DC38F299E696C00EAD11B /* CV.entitlements */,
 				805DC38C299E696C00EAD11B /* Preview Content */,
-				805DC395299E69C100EAD11B /* ResumeView.swift */,
-				805DC39A299E6C8200EAD11B /* Resume */,
-				805DC39F299E73EE00EAD11B /* Pics */,
-				805DC3A3299E7B4F00EAD11B /* Constants.swift */,
 			);
 			path = CV;
 			sourceTree = "<group>";
@@ -83,21 +98,70 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		805DC39A299E6C8200EAD11B /* Resume */ = {
+		806DF7CC2B2919090029ABFC /* Resumes */ = {
 			isa = PBXGroup;
 			children = (
-				805DC397299E69CC00EAD11B /* Resume.swift */,
-				80B2B1B52B2910EF008CD739 /* Resume+Example.swift */,
+				80D7C2CD2B185AB7005801A1 /* Resumes.swift */,
+				809F0EE62B1F663400ADD7CD /* Resume+Example.swift */,
+			);
+			path = Resumes;
+			sourceTree = "<group>";
+		};
+		806DF7D22B29BD650029ABFC /* Renderers */ = {
+			isa = PBXGroup;
+			children = (
+				8074CA3D2B16380A000B7350 /* MonochromeResumeRenderer.swift */,
+			);
+			path = Renderers;
+			sourceTree = "<group>";
+		};
+		806DF7D32B29BD700029ABFC /* URL Tracking */ = {
+			isa = PBXGroup;
+			children = (
+				8074CA4F2B17CDA9000B7350 /* URLPositionTracker.swift */,
+				806DF7D42B29BD880029ABFC /* URLPositions.swift */,
+			);
+			path = "URL Tracking";
+			sourceTree = "<group>";
+		};
+		8074CA312B163481000B7350 /* Resume */ = {
+			isa = PBXGroup;
+			children = (
+				8074CA322B16348D000B7350 /* Experience.swift */,
+				8074CA342B16350C000B7350 /* Education.swift */,
+				8074CA362B163565000B7350 /* Project.swift */,
+				8074CA382B16367D000B7350 /* Resume.swift */,
+				8074CA442B1739A2000B7350 /* Contact.swift */,
+				8074CA512B17DCDF000B7350 /* Skillset.swift */,
+				806DF7CC2B2919090029ABFC /* Resumes */,
 			);
 			path = Resume;
 			sourceTree = "<group>";
 		};
-		805DC39F299E73EE00EAD11B /* Pics */ = {
+		8074CA3A2B163789000B7350 /* Rendering */ = {
 			isa = PBXGroup;
 			children = (
-				80B2B1B72B2915FC008CD739 /* example.png */,
+				806DF7D32B29BD700029ABFC /* URL Tracking */,
+				8074CA492B175ECB000B7350 /* Palette.swift */,
+				806DF7D22B29BD650029ABFC /* Renderers */,
 			);
-			path = Pics;
+			path = Rendering;
+			sourceTree = "<group>";
+		};
+		8074CA412B16523A000B7350 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8074CA422B165248000B7350 /* String+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8074CA462B17469F000B7350 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				8074CA472B174EF2000B7350 /* ResumeViewer.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,7 +192,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
-				LastUpgradeCheck = 1410;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					805DC382299E696A00EAD11B = {
 						CreatedOnToolsVersion = 14.1;
@@ -158,7 +222,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80B2B1B82B2915FC008CD739 /* example.png in Resources */,
 				805DC38E299E696C00EAD11B /* Preview Assets.xcassets in Resources */,
 				805DC38B299E696C00EAD11B /* Assets.xcassets in Resources */,
 			);
@@ -171,12 +234,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				805DC398299E69CC00EAD11B /* Resume.swift in Sources */,
-				805DC389299E696A00EAD11B /* MainView.swift in Sources */,
-				80B2B1B62B2910EF008CD739 /* Resume+Example.swift in Sources */,
+				8074CA392B16367D000B7350 /* Resume.swift in Sources */,
+				8074CA332B16348D000B7350 /* Experience.swift in Sources */,
+				8074CA452B1739A2000B7350 /* Contact.swift in Sources */,
+				8074CA4A2B175ECB000B7350 /* Palette.swift in Sources */,
+				8074CA502B17CDA9000B7350 /* URLPositionTracker.swift in Sources */,
+				80D7C2CE2B185AB7005801A1 /* Resumes.swift in Sources */,
+				8074CA3E2B16380A000B7350 /* MonochromeResumeRenderer.swift in Sources */,
+				8074CA482B174EF2000B7350 /* ResumeViewer.swift in Sources */,
+				8074CA522B17DCDF000B7350 /* Skillset.swift in Sources */,
+				8074CA432B165248000B7350 /* String+Extensions.swift in Sources */,
+				8074CA352B16350C000B7350 /* Education.swift in Sources */,
+				806DF7D52B29BD880029ABFC /* URLPositions.swift in Sources */,
+				8074CA372B163565000B7350 /* Project.swift in Sources */,
+				809F0EE72B1F663400ADD7CD /* Resume+Example.swift in Sources */,
 				805DC387299E696A00EAD11B /* CVApp.swift in Sources */,
-				805DC396299E69C100EAD11B /* ResumeView.swift in Sources */,
-				805DC3A4299E7B4F00EAD11B /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,6 +288,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -276,6 +349,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -305,6 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CV/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,6 +388,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.CV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -330,6 +406,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"CV/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -338,6 +415,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.CV;
 				PRODUCT_NAME = "$(TARGET_NAME)";

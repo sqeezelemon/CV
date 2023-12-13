@@ -1,29 +1,16 @@
 // CV
 // ↳ Resume.swift
 //
-// Created by:
-// Alexander Nikitin - @sqeezelemon
+// Created by @sqeezelemon
 
 import Foundation
 
-struct Resume {
-  let name: String
-  let subtitle: String
-  let imageUrl: URL
-  let sections: [Section]
-}
-
-struct Section {
-  typealias Item = SectionItem
-  
-  let header: String
-  let items: [Item]
-}
-
-struct SectionItem {
-  let title: String
-  let titleLink: URL?
-  let body: String?
-  let leftAccessory: String
-  var asNonLink: Bool = false
+struct Resume: Decodable {
+  var name: String
+  var summary: String
+  var skillsets: [Skillset]
+  var experiences: [Experience]
+  var education: [Education]
+  var projects: [Project]
+  var contacts: [Contact]
 }

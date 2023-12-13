@@ -1,6 +1,7 @@
-<kbd>**[🇷🇺 Русский](sqeezelemon.github.com/cv/ru.pdf)**</kbd>
-<kbd>**[🇬🇧 English](sqeezelemon.github.com/cv/en.pdf)**</kbd>
+![header](.github/header.png)
+My CV, made with SwiftUI.
 
 ***
 
-My CV, made with SwiftUI.
+<kbd>**[🇷🇺 Русский](sqeezelemon.github.com/cv/ru.pdf)**</kbd>
+<kbd>**[🇬🇧 English](sqeezelemon.github.com/cv/en.pdf)**</kbd>
