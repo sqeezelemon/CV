@@ -7,45 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8027BAD42E36D86E00F54278 /* CV.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027BAD32E36D86C00F54278 /* CV.swift */; };
+		8027BAD72E36DC0100F54278 /* ResumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027BAD62E36DBE500F54278 /* ResumeView.swift */; };
+		8027BAD92E36E6FC00F54278 /* CV+Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027BAD82E36E6F900F54278 /* CV+Me.swift */; };
+		8027BADC2E36EABE00F54278 /* View+Paper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8027BADB2E36EAB800F54278 /* View+Paper.swift */; };
+		805486D02E3DEDEB0004E42E /* View+PDFObjectValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805486CF2E3DEDE80004E42E /* View+PDFObjectValue.swift */; };
+		805486D52E3FFECF0004E42E /* View+Rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805486D42E3FFECA0004E42E /* View+Rendering.swift */; };
+		805486D72E40007D0004E42E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805486D62E4000770004E42E /* MainView.swift */; };
 		805DC387299E696A00EAD11B /* CVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805DC386299E696A00EAD11B /* CVApp.swift */; };
 		805DC38B299E696C00EAD11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805DC38A299E696C00EAD11B /* Assets.xcassets */; };
 		805DC38E299E696C00EAD11B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 805DC38D299E696C00EAD11B /* Preview Assets.xcassets */; };
-		806DF7D52B29BD880029ABFC /* URLPositions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806DF7D42B29BD880029ABFC /* URLPositions.swift */; };
-		8074CA332B16348D000B7350 /* Experience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA322B16348D000B7350 /* Experience.swift */; };
-		8074CA352B16350C000B7350 /* Education.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA342B16350C000B7350 /* Education.swift */; };
-		8074CA372B163565000B7350 /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA362B163565000B7350 /* Project.swift */; };
-		8074CA392B16367D000B7350 /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA382B16367D000B7350 /* Resume.swift */; };
-		8074CA3E2B16380A000B7350 /* MonochromeResumeRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA3D2B16380A000B7350 /* MonochromeResumeRenderer.swift */; };
-		8074CA432B165248000B7350 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA422B165248000B7350 /* String+Extensions.swift */; };
-		8074CA452B1739A2000B7350 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA442B1739A2000B7350 /* Contact.swift */; };
-		8074CA482B174EF2000B7350 /* ResumeViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA472B174EF2000B7350 /* ResumeViewer.swift */; };
-		8074CA4A2B175ECB000B7350 /* Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA492B175ECB000B7350 /* Palette.swift */; };
-		8074CA502B17CDA9000B7350 /* URLPositionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA4F2B17CDA9000B7350 /* URLPositionTracker.swift */; };
-		8074CA522B17DCDF000B7350 /* Skillset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8074CA512B17DCDF000B7350 /* Skillset.swift */; };
-		809F0EE72B1F663400ADD7CD /* Resume+Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809F0EE62B1F663400ADD7CD /* Resume+Example.swift */; };
-		80D7C2CE2B185AB7005801A1 /* Resumes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D7C2CD2B185AB7005801A1 /* Resumes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8027BAD32E36D86C00F54278 /* CV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CV.swift; sourceTree = "<group>"; };
+		8027BAD62E36DBE500F54278 /* ResumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeView.swift; sourceTree = "<group>"; };
+		8027BAD82E36E6F900F54278 /* CV+Me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CV+Me.swift"; sourceTree = "<group>"; };
+		8027BADB2E36EAB800F54278 /* View+Paper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Paper.swift"; sourceTree = "<group>"; };
+		805486CF2E3DEDE80004E42E /* View+PDFObjectValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+PDFObjectValue.swift"; sourceTree = "<group>"; };
+		805486D42E3FFECA0004E42E /* View+Rendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Rendering.swift"; sourceTree = "<group>"; };
+		805486D62E4000770004E42E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		805DC383299E696A00EAD11B /* CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		805DC386299E696A00EAD11B /* CVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVApp.swift; sourceTree = "<group>"; };
 		805DC38A299E696C00EAD11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		805DC38D299E696C00EAD11B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		805DC38F299E696C00EAD11B /* CV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CV.entitlements; sourceTree = "<group>"; };
-		806DF7D42B29BD880029ABFC /* URLPositions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPositions.swift; sourceTree = "<group>"; };
-		8074CA322B16348D000B7350 /* Experience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Experience.swift; sourceTree = "<group>"; };
-		8074CA342B16350C000B7350 /* Education.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Education.swift; sourceTree = "<group>"; };
-		8074CA362B163565000B7350 /* Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project.swift; sourceTree = "<group>"; };
-		8074CA382B16367D000B7350 /* Resume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resume.swift; sourceTree = "<group>"; };
-		8074CA3D2B16380A000B7350 /* MonochromeResumeRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonochromeResumeRenderer.swift; sourceTree = "<group>"; };
-		8074CA422B165248000B7350 /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		8074CA442B1739A2000B7350 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
-		8074CA472B174EF2000B7350 /* ResumeViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResumeViewer.swift; sourceTree = "<group>"; };
-		8074CA492B175ECB000B7350 /* Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Palette.swift; sourceTree = "<group>"; };
-		8074CA4F2B17CDA9000B7350 /* URLPositionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLPositionTracker.swift; sourceTree = "<group>"; };
-		8074CA512B17DCDF000B7350 /* Skillset.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Skillset.swift; sourceTree = "<group>"; };
-		809F0EE62B1F663400ADD7CD /* Resume+Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Resume+Example.swift"; sourceTree = "<group>"; };
-		80D7C2CD2B185AB7005801A1 /* Resumes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resumes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +45,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8027BAD22E36D86600F54278 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8027BAD82E36E6F900F54278 /* CV+Me.swift */,
+				8027BAD32E36D86C00F54278 /* CV.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8027BAD52E36DBDD00F54278 /* Resume */ = {
+			isa = PBXGroup;
+			children = (
+				8027BADB2E36EAB800F54278 /* View+Paper.swift */,
+				8027BAD62E36DBE500F54278 /* ResumeView.swift */,
+			);
+			path = Resume;
+			sourceTree = "<group>";
+		};
+		805486CE2E3DE41B0004E42E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				805486D62E4000770004E42E /* MainView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		805486D32E3FFEA40004E42E /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				805486D42E3FFECA0004E42E /* View+Rendering.swift */,
+				805486CF2E3DEDE80004E42E /* View+PDFObjectValue.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
 		805DC37A299E696A00EAD11B = {
 			isa = PBXGroup;
 			children = (
@@ -78,10 +99,10 @@
 		805DC385299E696A00EAD11B /* CV */ = {
 			isa = PBXGroup;
 			children = (
-				8074CA462B17469F000B7350 /* UI */,
-				8074CA3A2B163789000B7350 /* Rendering */,
-				8074CA312B163481000B7350 /* Resume */,
-				8074CA412B16523A000B7350 /* Extensions */,
+				805486D32E3FFEA40004E42E /* PDF */,
+				805486CE2E3DE41B0004E42E /* UI */,
+				8027BAD52E36DBDD00F54278 /* Resume */,
+				8027BAD22E36D86600F54278 /* Model */,
 				805DC386299E696A00EAD11B /* CVApp.swift */,
 				805DC38A299E696C00EAD11B /* Assets.xcassets */,
 				805DC38F299E696C00EAD11B /* CV.entitlements */,
@@ -96,72 +117,6 @@
 				805DC38D299E696C00EAD11B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		806DF7CC2B2919090029ABFC /* Resumes */ = {
-			isa = PBXGroup;
-			children = (
-				80D7C2CD2B185AB7005801A1 /* Resumes.swift */,
-				809F0EE62B1F663400ADD7CD /* Resume+Example.swift */,
-			);
-			path = Resumes;
-			sourceTree = "<group>";
-		};
-		806DF7D22B29BD650029ABFC /* Renderers */ = {
-			isa = PBXGroup;
-			children = (
-				8074CA3D2B16380A000B7350 /* MonochromeResumeRenderer.swift */,
-			);
-			path = Renderers;
-			sourceTree = "<group>";
-		};
-		806DF7D32B29BD700029ABFC /* URL Tracking */ = {
-			isa = PBXGroup;
-			children = (
-				8074CA4F2B17CDA9000B7350 /* URLPositionTracker.swift */,
-				806DF7D42B29BD880029ABFC /* URLPositions.swift */,
-			);
-			path = "URL Tracking";
-			sourceTree = "<group>";
-		};
-		8074CA312B163481000B7350 /* Resume */ = {
-			isa = PBXGroup;
-			children = (
-				8074CA322B16348D000B7350 /* Experience.swift */,
-				8074CA342B16350C000B7350 /* Education.swift */,
-				8074CA362B163565000B7350 /* Project.swift */,
-				8074CA382B16367D000B7350 /* Resume.swift */,
-				8074CA442B1739A2000B7350 /* Contact.swift */,
-				8074CA512B17DCDF000B7350 /* Skillset.swift */,
-				806DF7CC2B2919090029ABFC /* Resumes */,
-			);
-			path = Resume;
-			sourceTree = "<group>";
-		};
-		8074CA3A2B163789000B7350 /* Rendering */ = {
-			isa = PBXGroup;
-			children = (
-				806DF7D32B29BD700029ABFC /* URL Tracking */,
-				8074CA492B175ECB000B7350 /* Palette.swift */,
-				806DF7D22B29BD650029ABFC /* Renderers */,
-			);
-			path = Rendering;
-			sourceTree = "<group>";
-		};
-		8074CA412B16523A000B7350 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				8074CA422B165248000B7350 /* String+Extensions.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		8074CA462B17469F000B7350 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				8074CA472B174EF2000B7350 /* ResumeViewer.swift */,
-			);
-			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,21 +189,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8074CA392B16367D000B7350 /* Resume.swift in Sources */,
-				8074CA332B16348D000B7350 /* Experience.swift in Sources */,
-				8074CA452B1739A2000B7350 /* Contact.swift in Sources */,
-				8074CA4A2B175ECB000B7350 /* Palette.swift in Sources */,
-				8074CA502B17CDA9000B7350 /* URLPositionTracker.swift in Sources */,
-				80D7C2CE2B185AB7005801A1 /* Resumes.swift in Sources */,
-				8074CA3E2B16380A000B7350 /* MonochromeResumeRenderer.swift in Sources */,
-				8074CA482B174EF2000B7350 /* ResumeViewer.swift in Sources */,
-				8074CA522B17DCDF000B7350 /* Skillset.swift in Sources */,
-				8074CA432B165248000B7350 /* String+Extensions.swift in Sources */,
-				8074CA352B16350C000B7350 /* Education.swift in Sources */,
-				806DF7D52B29BD880029ABFC /* URLPositions.swift in Sources */,
-				8074CA372B163565000B7350 /* Project.swift in Sources */,
-				809F0EE72B1F663400ADD7CD /* Resume+Example.swift in Sources */,
+				8027BAD92E36E6FC00F54278 /* CV+Me.swift in Sources */,
+				805486D72E40007D0004E42E /* MainView.swift in Sources */,
+				8027BADC2E36EABE00F54278 /* View+Paper.swift in Sources */,
+				8027BAD42E36D86E00F54278 /* CV.swift in Sources */,
 				805DC387299E696A00EAD11B /* CVApp.swift in Sources */,
+				805486D52E3FFECF0004E42E /* View+Rendering.swift in Sources */,
+				8027BAD72E36DC0100F54278 /* ResumeView.swift in Sources */,
+				805486D02E3DEDEB0004E42E /* View+PDFObjectValue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

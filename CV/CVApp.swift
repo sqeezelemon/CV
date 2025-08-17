@@ -9,7 +9,9 @@ import SwiftUI
 struct CVApp: App {
   var body: some Scene {
     WindowGroup {
-      ResumeViewer()
+//        ResumeView(cv: .me)
+        MainView()
     }
+    .windowStyle(.hiddenTitleBar)
   }
 }
